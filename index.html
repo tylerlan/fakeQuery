@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <script src="./fakeQuery.js"></script>
-  <title></title>
+  <!-- Other scripts loaded below this one, have access to the $ variable defined in fakeQuery.js, because it is in the 'Global Scope' -->
+  <title>fake Query</title>
 </head>
 <body>
+  
+  <div class="some-class">
+    <p id="some-id">
+      Some text
+    </p>
+  </div>
+
 </body>
 </html>
